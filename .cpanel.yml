@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/mauriciocreativa/public_html/medicalpracticesforsale/
+    - /bin/cp * $DEPLOYPATH    

@@ -1,8 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/mauriciocreativa/public_html/medicalpracticesforsale/
-    - /bin/cp * $DEPLOYPATH    
-    - /bin/cp -R wp-admin/ $DEPLOYPATH
-    - /bin/cp -R wp-content/ $DEPLOYPATH    
-    - /bin/cp -R wp-includes/ $DEPLOYPATH    
